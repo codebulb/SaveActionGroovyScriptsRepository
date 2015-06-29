@@ -11,7 +11,7 @@
 
 import ch.codebulb.saveactiongroovyscripts.util.*
 
-projectBaseDir."res"."$file.parent.name"."strings.xml" = 
+projectBaseDir.app.src.main."res"."$file.parent.name"."strings.xml" = 
     XmlFiles.write(PropertiesFiles.read(content), 'resources', 'string', 'name')
 
 null
